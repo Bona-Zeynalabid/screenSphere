@@ -186,7 +186,7 @@ export default function HomePage() {
             <SectionGrid
               title={`${activeCategory.label} Movies`}
               items={categoryMovies.slice(0, 18)}
-              type="movie"
+              type="movies"
             />
           )}
           {showCategoryTV && (
