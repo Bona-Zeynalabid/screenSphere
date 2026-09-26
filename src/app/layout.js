@@ -5,7 +5,7 @@ export const metadata = {
   title: "ScreenSphere",
   description: "Watch movies and TV shows",
   icons: {
-    icon: "public/icon.png",
+    icon: "/icon.png",
   },
 };
 
