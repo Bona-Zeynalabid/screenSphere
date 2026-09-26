@@ -621,7 +621,7 @@ export default function WatchView({ type, id }) {
                           return (
                             <Link
                               key={rec.id}
-                              href={`/movie/${rec.id}`}
+                              href={`/movies/${rec.id}`}
                               className="flex gap-3 group"
                             >
                               <div className="w-24 aspect-[2/3] bg-[#212121] rounded-lg overflow-hidden shrink-0">

@@ -26,7 +26,7 @@ export default function Header() {
     const t = setTimeout(async () => {
       const [m, tv] = await Promise.all([searchMovies(query), searchTV(query)]);
       const combined = [
-        ...(m.results || []).map((x) => ({ ...x, mediaType: "movie" })),
+        ...(m.results || []).map((x) => ({ ...x, mediaType: "movies" })),
         ...(tv.results || []).map((x) => ({ ...x, mediaType: "tv" })),
       ]
         .sort((a, b) => b.popularity - a.popularity)
