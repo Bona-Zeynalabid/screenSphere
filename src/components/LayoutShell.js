@@ -12,7 +12,7 @@ export default function LayoutShell({ children }) {
   const isWatchPage = pathname?.startsWith("/watch") ?? false;
 
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [collapsed, setCollapsed] = useState(false);
+  const [collapsed, setCollapsed] = useState(true);
 
   // Reset drawer when the route changes
   useEffect(() => {
